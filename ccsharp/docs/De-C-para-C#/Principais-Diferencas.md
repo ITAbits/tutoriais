@@ -7,6 +7,7 @@
 * [Funcoes](#funcoes)
 * [Struct](#struct)
 
+<span id="tipos"></span>
 ## Tipos
 
 C# é uma linguagem fortemente tipada. Isso significa que qualquer variavel declarada terá um tipo e não será possivel alterá-lo. Os tipos primitivos de C tem todos equivalentes em C#. Em C# as precisões são bem-definidas, diferente de C, em que estas dependem do compilador. Seguem os tipos já conhecidos:
@@ -31,6 +32,7 @@ _bool_: é um tipo booleano, que pode assumir os valores lógicos de _true_ e _f
 
 _string_: que representa uma cadeia infinita de caracteres, com memória alocada dinamicamente). Esse tipo facilita muito por que deixa de lado o uso de um array de _char_'s para strings. Trabalhar com _string_ de C# é muito intuitivo: para concatenar, basta somá-las, com +.  No código _string_ são variaveis declaradas entre "".
 
+<span id="entrada-e-saida"></span>
 ## Entrada e Saida
 
 Como foi visto no HelloWorld.cs existe o comando _Console.Write()_ que escreve uma string no console. Existe tambem (que pode ser visto como sugestão ao se escrever o comando anterior) o _Console.WriteLine()_, esse basicamente adiciona um "\n" no final.
@@ -75,10 +77,12 @@ string si = i.ToString();
 string sf = f.ToString();
 ```
 
+<span id="controle-de-fluxo"></span>
 ## Controle de Fluxo
 
 Os comandos _if_, _else_, _switch_, _while_ e _for_ funcionam da mesma forma que em C.
 
+<span id="variaveis-indexadas"></span>
 ## Variaveis Indexadas
 
 A forma de se declarar variaveis indexadas é um pouco diferente:
@@ -136,6 +140,7 @@ matriz[2][2] = 0;
 
 As variáveis indexadas multidimensionais também podem ser iteradas com _foreach_.
 
+<span id="list"></span>
 ## List
 
 Muitas vezes existem arrays num programa que se beneficiariam muito de não ter um tamanho constante. Por exemplo, em um jogo, poderia haver uma lista de inimigos, que aparecem e desaparecem. Normalmente a solução é fazer um array com um tamanho suficientemente grande para não estourar, que muitas vezes é um desperdício de memória. Para resolver isso, C# tem o tipo _List_.
@@ -166,6 +171,7 @@ inteiros.RemoveAt(0); // Remove o elemento na posição 0
 
 Por enquanto é preciso "aceitar" que a lista de um tipo qualquer é definida com List\<Tipo\>. O significado dessa notação é bastante complexo, e provavelmente só será tratado em algum tutorial futuro de C# avançado, no entanto o seu uso é bem simples, e relativamente intuitivo.
 
+<span id="funcoes"></span>
 ## Funcoes
 
 Sintaxe semelhante à de C:
@@ -198,6 +204,7 @@ Para usar os métodos de C# de forma análoga ao que é conhecido de C, é preci
 
 Em C# é possível tambem declarar vários métodos com o mesmo nome, desde que a lista de argumentos( em termos da ordem tos tipos de argumentos) sejam diferentes. Isso se chama _overload_ de métodos. O compilador descobre qual método deve chamar a partir dos parametros passados.
 
+<span id="struct"></span>
 ## Struct
 
 C# dá suporte a _structs_, que são muito semelhantes às de C. Exemplo de uso:
