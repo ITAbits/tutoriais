@@ -26,13 +26,6 @@
           "content_file": "principais-diferencas.md"
         }
       ]
-    },
-    {
-      "title": "Unity",
-      "content_url": "/unity",
-      "content_path": "/unity/",
-      "content_file": "test.md",
-      "chapters": []
     }
   ]
 }
