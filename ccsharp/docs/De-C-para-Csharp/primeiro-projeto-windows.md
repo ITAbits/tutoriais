@@ -65,4 +65,4 @@ Você deve ter percebido que o analogo em C# do printf() é o Console.Write() e 
 
 O codigo feito até agora pode ser encontrado [aqui](https://github.com/ITAbits/treinamento-csharp/tree/hello-world/HelloWorld).
 
-Agora, sabendo criar um hello world, e assim tendo uma sandbox para testarmos nossos conhecimentos, vamos às [principais diferencas entre C++ e C#](https://github.com/ITAbits/treinamento-csharp/blob/master/docs/De-C-para-C%23/Principais-Diferencas.md)
+Agora, sabendo criar um hello world, e assim tendo uma sandbox para testarmos nossos conhecimentos, vamos às [principais diferencas entre C++ e C#](https:/itabits-site.herokuapp.com/tutorials/ccsharp/principaisdiferencas)
