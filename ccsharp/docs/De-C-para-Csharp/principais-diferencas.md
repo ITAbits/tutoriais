@@ -92,7 +92,7 @@ A forma de se declarar variaveis indexadas é um pouco diferente:
 // int array[100];
 int[] array = new int[100];
 ```
-Em C#, arrays são alocados dinamicamente (esse _new_ é análogo ao de C++). _int[] array_ é apenas a declaração de uma variável do tipo array de inteiros. _new int[100]_ é o que cria o array na memória (assim como o malloc). Esse array é análogo a um ponteiro, mas é chamado de referencia, pois a principio C# não trabalha com ponteiros.
+Em C#, arrays são alocados dinamicamente (esse _new_ é análogo ao de C++). _int[] array_ é apenas a declaração de uma variável do tipo array de inteiros. _new int\[100]_ é o que cria o array na memória (assim como o malloc). Esse array é análogo a um ponteiro, mas é chamado de referencia, pois a principio C# não trabalha com ponteiros.
 
 Ponteiros são uma fonte muito comum de bugs, por isso linguagens mais modernas abandonaram tal conceito pelo de referência. Referências são no fundo ponteiros, mas que não permitem acesso direto à memoria, a diferença entre o que é o ponteiro e a variável em si fica escondida do programador. Com o uso, a diferença ficará mais clara. O C# se encarrega de buscar o que for preciso no lugar certo da memória.
 

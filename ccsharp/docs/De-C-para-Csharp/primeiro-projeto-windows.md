@@ -5,9 +5,11 @@ Antes de tudo, é altamente recomendado instalar o **Visual Studio**, que será 
 O Visual Studio é uma IDE(_integrated development environment_), ou seja, é um programa com ferramentas integradas para auxiliar a programação. É o equivalente ao Code::Blocks e ao Borland para C#, só que **muito** melhor.
 
 Após a instalação, quando se abre o Visual Studio têm-se a seguinte tela:
+
 ![](/tutoriais/ccsharp/docs/De-C-para-Csharp/img/vshome.png)
 
 Para a criação do programa, é necessário primeiramente se criar um projeto (que é basicamente a forma do Visual Studio de facilitar a integração de varios arquivos em um programa só). Vá em **File->New->Project...** Será aberta uma janela como a seguinte:
+
 ![](/tutoriais/ccsharp/docs/De-C-para-Csharp/img/vsnewproject.png)
 
 Escolha **Console Application** e dê um nome para o projeto (foi colocado _HelloWorld_). Então clique em **OK**.
@@ -54,6 +56,7 @@ Console.Read();
 ```
 
 A seguinte saída é a esperada:
+
 ![](/tutoriais/ccsharp/docs/De-C-para-Csharp/img/helloworld.png)
 
 Pronto! O primeiro projeto em C#, o clássico hello world.
