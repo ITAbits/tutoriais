@@ -11,19 +11,19 @@
       "title": "De C para C#",
       "content_url": "/ccsharp",
       "content_path": "/ccsharp/docs/De-C-para-C#/",
-      "content_file": "README.md",
+      "content_file": "readme.md",
       "chapters": [
         {
           "title": "Hello World! (Windows)",
           "content_url": "/helloworld",
           "content_path": "",
-          "content_file": "Primeiro-Projeto-(Windows).md"
+          "content_file": "primeiro-projeto-windows.md"
         },
         {
           "title": "Principais diferenças",
           "content_url": "/principaisdiferencas",
           "content_path": "",
-          "content_file": "Principais-Diferencas.md"
+          "content_file": "principais-diferencas.md"
         }
       ]
     },
