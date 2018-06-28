@@ -51,7 +51,7 @@ Console.Read();
 ```
 
 Saída:
-![](img/saidawrite.png)
+![](/tutoriais/ccsharp/docs/De-C-para-Csharp/img/saidawrite.png)
 
 Assim, o uso do Console.Write() é mais confortável. Para os casos em que se deseja aplicar a formatação, pode-se usar o estilo de formatação do C#, como feito no ultimo _Console.WriteLine_.
 
